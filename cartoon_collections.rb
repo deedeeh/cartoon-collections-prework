@@ -10,8 +10,11 @@ def summon_captain_planet(array)
   array.collect {|item| item.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(array)
   # Your code here
+  array.map do |item|
+    return item.length > 4 ? true : false
+  end
 end
 
 def find_the_cheese# code an argument here
@@ -19,20 +22,10 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-def roll_call_dwarves(dwarves)
-  # Your code here
-end
 
-def summon_captain_planet(array)
-  # Your code here
-  array.collect {|item| item.capitalize + "!"}
-end
 
 def long_planeteer_calls(array)
   # Your code here
-  array.map do |item|
-    return item.length > 4 ? true : false
-  end
 end
 
 def find_the_cheese(array)
