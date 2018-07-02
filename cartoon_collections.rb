@@ -24,8 +24,3 @@ def find_the_cheese(array)
     item.include?(array)
   end
 end
-
-def find_the_cheese(array)
-  # the array below is here to help
-
-end
