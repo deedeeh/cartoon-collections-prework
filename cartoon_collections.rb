@@ -19,7 +19,6 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
-  cheddar_cheese = ["banana", "cheddar", "sock"]
   array.find do |item|
     item.include?(array)
   end
